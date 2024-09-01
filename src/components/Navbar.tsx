@@ -64,16 +64,18 @@ export default function Component() {
         </Link>
 
         {/* Notifications */}
-        <Button
-          variant="ghost"
-          size="icon"
-          className="rounded-full text-gray-300 hover:bg-[#2c2c2c]"
-        >
-          <BellIcon className="h-6 w-6" />
-          <div className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-primary-foreground">
-            2
-          </div>
-        </Button>
+        <div className="relative">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="rounded-full text-gray-300 hover:bg-[#2c2c2c] relative"
+          >
+            <BellIcon className="h-6 w-6" />
+            <div className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs text-white">
+              2
+            </div>
+          </Button>
+        </div>
         {/* Sign in */}
         <Button
           variant="outline"
