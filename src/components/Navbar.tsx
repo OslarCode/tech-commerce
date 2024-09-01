@@ -70,7 +70,7 @@ export default function Component() {
             size="icon"
             className="rounded-full text-gray-300 hover:bg-[#2c2c2c] relative"
           >
-            <BellIcon className="h-6 w-6" />
+            <BellIcon className="h-6 w-6 hover:text-white " />
             <div className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs text-white">
               2
             </div>
@@ -79,21 +79,28 @@ export default function Component() {
         {/* Sign in */}
         <Button
           variant="outline"
-          className="hidden sm:inline-flex text-gray-300 border-gray-500"
+          className="hidden sm:inline-flex bg-primary text-gray-300 border-gray-500"
         >
           Sign In
         </Button>
         {/* Sign up */}
-        <Button className="hidden sm:inline-flex bg-primary text-white">
+        <Button
+          variant="outline"
+          className="hidden sm:inline-flex bg-primary text-gray-300 border-gray-500"
+        >
           Sign Up
         </Button>
         {/* Account */}
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="ghost" size="icon" className="rounded-full">
+            <Button
+              variant="outline"
+              size="icon"
+              className="rounded-full text-gray-300 hover:bg-[#2c2c2c]"
+            >
               <Avatar className="h-8 w-8">
                 <AvatarImage src="/placeholder-user.jpg" alt="@shadcn" />
-                <AvatarFallback>JP</AvatarFallback>
+                <AvatarFallback className="text-black">JP</AvatarFallback>
               </Avatar>
             </Button>
           </DropdownMenuTrigger>
