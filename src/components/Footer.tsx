@@ -1,7 +1,7 @@
 // components/Footer.tsx
 "use client";
 import Link from "next/link";
-
+import { SVGProps } from "react";
 export default function Component() {
   return (
     <footer className="bg-[#171717] py-8 md:py-12 text-gray-300">
@@ -169,7 +169,7 @@ export default function Component() {
   );
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
