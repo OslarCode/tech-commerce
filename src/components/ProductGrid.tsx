@@ -6,9 +6,9 @@ import Image from "next/image";
 
 export default function ProductGrid() {
   return (
-    <div className="grid grid-cols-5 grid-rows-2 gap-4 p-4 bg-[#171717]">
-      {/* Card 1: Ocupa 4 columnas y 2 filas */}
-      <div className="relative col-span-4 row-span-2 h-80 bg-black rounded-lg overflow-hidden group">
+    <div className="grid grid-cols-1 md:grid-cols-5 grid-rows-3 md:grid-rows-2 gap-4 p-4 bg-[#171717]">
+      {/* Card 1: Ocupa 1 columna en pantallas pequeñas y 4 columnas en pantallas grandes */}
+      <div className="relative col-span-1 md:col-span-3 row-span-1 md:row-span-2 h-100 bg-black rounded-lg overflow-hidden group">
         <Image
           src="/product1.jpg" // Reemplaza con la ruta de tu imagen
           alt="Product 1"
@@ -29,10 +29,10 @@ export default function ProductGrid() {
         </div>
       </div>
 
-      {/* Card 2: Ocupa 1 columna y 1 fila en la primera fila */}
-      <div className="relative col-span-1 row-span-1 h-60 bg-black rounded-lg overflow-hidden group">
+      {/* Card 2: Ocupa 1 columna en pantallas pequeñas y 1 columna en pantallas grandes */}
+      <div className="relative col-span-1 md:col-span-2 row-span-1 h-60 bg-black rounded-lg overflow-hidden group">
         <Image
-          src="/product2.jpg" // Reemplaza con la ruta de tu imagen
+          src="/products/AppleWatch.png" // Reemplaza con la ruta de tu imagen
           alt="Product 2"
           layout="fill"
           objectFit="cover"
@@ -51,8 +51,8 @@ export default function ProductGrid() {
         </div>
       </div>
 
-      {/* Card 3: Ocupa 1 columna y 1 fila en la segunda fila */}
-      <div className="relative col-span-1 row-span-1 h-60 bg-black rounded-lg overflow-hidden group">
+      {/* Card 3: Ocupa 1 columna en pantallas pequeñas y 1 columna en pantallas grandes */}
+      <div className="relative col-span-1 md:col-span-2 row-span-1 h-60 bg-black rounded-lg overflow-hidden group">
         <Image
           src="/product3.jpg" // Reemplaza con la ruta de tu imagen
           alt="Product 3"
