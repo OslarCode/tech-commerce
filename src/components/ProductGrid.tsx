@@ -24,7 +24,7 @@ export default function ProductGrid() {
             variant="secondary"
             className="bg-blue-600 text-white p-2 ml-2"
           >
-            $20.00 USD
+            $00.00 USD
           </Badge>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default function ProductGrid() {
             variant="secondary"
             className="bg-blue-600 text-white p-2 ml-2"
           >
-            $300.00 USD
+            $00.00 USD
           </Badge>
         </div>
       </div>
@@ -68,7 +68,7 @@ export default function ProductGrid() {
             variant="secondary"
             className="bg-blue-600 text-white p-2 ml-2"
           >
-            $15.00 USD
+            $00.00 USD
           </Badge>
         </div>
       </div>
