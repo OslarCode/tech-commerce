@@ -18,32 +18,32 @@ type Product = {
 const products: Product[] = [
   {
     id: 1,
-    name: "Camiseta Negra",
-    image: "/placeholder.svg?height=400&width=300",
+    name: "Macbook Pro",
+    image: "https://placehold.co/400/000000/FFF",
     price: 29.99,
   },
   {
     id: 2,
-    name: "Jeans Azules",
-    image: "/placeholder.svg?height=400&width=300",
+    name: "Airpods Pro",
+    image: "https://placehold.co/400/000000/FFF",
     price: 59.99,
   },
   {
     id: 3,
-    name: "Zapatillas Blancas",
-    image: "/placeholder.svg?height=400&width=300",
+    name: "Ipad Pro",
+    image: "https://placehold.co/400/000000/FFF",
     price: 89.99,
   },
   {
     id: 4,
-    name: "Chaqueta de Cuero",
-    image: "/placeholder.svg?height=400&width=300",
+    name: "Iphone Pro",
+    image: "https://placehold.co/400/000000/FFF",
     price: 199.99,
   },
   {
     id: 5,
-    name: "Vestido Floral",
-    image: "/placeholder.svg?height=400&width=300",
+    name: "Apple Tv",
+    image: "https://placehold.co/400/000000/FFF",
     price: 79.99,
   },
 ];
