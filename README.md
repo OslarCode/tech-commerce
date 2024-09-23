@@ -2,6 +2,7 @@
 
 Bienvenido a la **E-Commerce App**! 🚀 Este repositorio contiene una aplicación moderna de comercio electrónico que ofrece una experiencia de compra atractiva y fácil de usar. Aquí podrás explorar y comprar productos, además de disfrutar de una interfaz intuitiva y funcionalidades avanzadas.
 
+![Tesch-Commerce](https://github.com/OslarCode/tech-commerce/blob/master/public/images/Tech_Commerce.png)
 ---
 
 ## 📸 **Características Principales**
